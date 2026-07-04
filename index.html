@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Refresso — Fresh Brews, Chill Vibes</title>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-en">
+
+<header>
+  <div class="brand">
+    <img src="images/logo.png" alt="Refresso logo">
+  </div>
+  <div class="lang-switch">
+    <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+    <button id="btn-ar" onclick="setLang('ar')">ع</button>
+  </div>
+</header>
+
+<section class="hero">
+  <svg class="steam" viewBox="0 0 26 40"><path d="M13 40 C13 34 6 30 6 24 C6 18 13 16 13 10 C13 4 6 2 6 0 M13 40 C13 34 20 30 20 24 C20 18 13 16 13 10"/></svg>
+  <div class="eyebrow"><span class="en-text">Refresso · Riyadh</span><span class="ar-text">ريفريسو · الرياض</span></div>
+  <h1 class="display"><span class="en-text">Fresh Brews.<br>Chill Vibes.</span><span class="ar-text">قهوتك • مزاجك</span></h1>
+
+  <div class="sig-label"><span class="en-text">Signature Picks</span><span class="ar-text">أشهر المشروبات</span></div>
+  <div class="sig-row" id="sig-row"></div>
+</section>
+
+<div class="section-title">
+  <div class="eyebrow"><span class="en-text">Browse</span><span class="ar-text">تصفح</span></div>
+  <h2 class="display"><span class="en-text">The Menu</span><span class="ar-text">القائمة</span></h2>
+</div>
+
+<div class="cat-grid" id="cat-grid"></div>
+
+<div class="menu-panel" id="menu-panel"></div>
+
+<footer>
+  <div class="f-brand">Refresso</div>
+  <div class="f-tag"><span class="en-text">Fresh Brews · Chill Vibes</span><span class="ar-text">قهوة طازجة · أجواء هادئة</span></div>
+  <div class="socials">
+    <a class="social-pill" href="https://instagram.com/refresso.sa" target="_blank" rel="noopener">
+      📷 <span>Instagram · @refresso.sa</span>
+    </a>
+    <a class="social-pill" href="https://snapchat.com/add/refressosa" target="_blank" rel="noopener">
+      👻 <span>Snapchat · refressosa</span>
+    </a>
+  </div>
+  <div class="copy"><span class="en-text">© 2026 Refresso, Riyadh</span><span class="ar-text">© 2026 ريفريسو، الرياض</span></div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
